@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+*{
+    /* border: solid orange; */
+    font-family: Calibri;
+    font-weight: 1;
+}
+#root{
+    background-color: black;
+}
+.App{
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+}
+.mainPagesContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    padding: 1em 4em 0 4em;
+    border-left: solid lightgray;
+    border-width: 5px;
+    margin: 0 auto 0 auto;
+}
+.headersContainer{
+    text-align: start;
+}
+.headerTitle{
+    color: rgb(197, 0, 66);
+    font-size: 4em;
+    margin-bottom: 0;
+}
+.headerSubtitle{
+    margin-top: 0;
+    font-weight: 500;
+}
+.navsContainer{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0 0 3em 0;
+}
+.navbarsEach{
+    font-size: large;
+}
+.navLinks{
+   color: black;
+   text-decoration: none;
+   border-bottom: solid lightgray;
+   border-width: 2px;
+}
+.blogsContainer{
+    padding-top: 1em;
+}
+.eachBlogContainer{
+    border-bottom: solid lightgray;
+    border-width: .1em;
+    padding: 2em 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blogDate{
+    font-size: x-large;
+    font-family: "Gill Sans MT";
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blogTitle{
+    font-size: xxx-large;
+    font-family: "Calibri";
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.blogImage{
+    width: 100%;
 }
+.blogParagraph{
+    line-height: 1.5;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p::first-letter{
+    color: gray;
+    font-size: 4em;
+    font-family: calibri;
+    padding: 0 10px 0 0;
+    float:left;
+}
+.buttonContinue{
+    text-align: end;
+    color: rgb(197, 0, 66);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.footersContainer{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 2.9em 0 0 0;
+}
+.footersEach{
+    font-size: large;
+}
+.footerLinks{
+    color: rgb(197, 0, 66);
+    text-decoration: none;
+}
+.copyRight{
+    font-size: large;
 }
