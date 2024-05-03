@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rtt08-reactFashionBlogLab320/static/css/main.7542a5ae.css",
-    "main.js": "/rtt08-reactFashionBlogLab320/static/js/main.1491f997.js",
+    "main.js": "/rtt08-reactFashionBlogLab320/static/js/main.4025e90c.js",
     "static/js/453.9f94d1cd.chunk.js": "/rtt08-reactFashionBlogLab320/static/js/453.9f94d1cd.chunk.js",
     "index.html": "/rtt08-reactFashionBlogLab320/index.html",
     "main.7542a5ae.css.map": "/rtt08-reactFashionBlogLab320/static/css/main.7542a5ae.css.map",
-    "main.1491f997.js.map": "/rtt08-reactFashionBlogLab320/static/js/main.1491f997.js.map",
+    "main.4025e90c.js.map": "/rtt08-reactFashionBlogLab320/static/js/main.4025e90c.js.map",
     "453.9f94d1cd.chunk.js.map": "/rtt08-reactFashionBlogLab320/static/js/453.9f94d1cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7542a5ae.css",
-    "static/js/main.1491f997.js"
+    "static/js/main.4025e90c.js"
   ]
 }
